@@ -16,7 +16,7 @@ namespace RaceTrack.RaceTrack.Cars
 
         public override void StartEngine()
         {
-            Console.WriteLine($"The {Name} sliently powers on");
+            Console.WriteLine($"The {Name} silently powers on");
         }
 
         public override void StopEngine()
