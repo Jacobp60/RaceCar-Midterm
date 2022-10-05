@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 
 namespace RaceTrack.RaceTrack.Cars
 {
-    public class FordGt : RaceCar
-    { 
-        public FordGt()
+    public class Tesla : RaceCar
+    {
+        public Tesla()
         {
-            Name = "Ford GT";
-            TopSpeed = 100;
+            Name = "Tesla Model S Plaid HACKED";
+            TopSpeed = 216;
         }
 
         public override void StartEngine()
         {
-            Console.WriteLine($"The {Name} roars to life!");
+            Console.WriteLine($"The {Name} sliently powers on");
         }
 
         public override void StopEngine()
         {
-            Console.WriteLine($"The {Name} engine prrrr turns off");
+            Console.WriteLine($"Did the {Name} engine turn off?");
         }
     }
 }
